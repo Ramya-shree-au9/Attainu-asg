@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(to right, #FFCCFF ,#6666FF);
+}
+
+%message{
+        height:40px;
+        border-radius: 8px;
+        font-size: 110%;
+}
+.contents{
+    .head{
+        color: rgba(255, 0, 0, 0.801);
+
+    }
+  
+.content{
+    
+    
+    .card{
+        min-height: 215px;
+        background-color: whitesmoke;
+        margin:3%  ;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding-top: 6%;
+        border-radius: 10px;
+        button{
+            width: 30%;
+            margin: 2%;
+        }
+        
+        .emaildetail{
+            font-size: 1.3rem;
+        }
+        
+    }
+    
+    .usericon{
+        font-size:420%;
+        margin:0 32%;
+        background-color: rgba(255, 166, 0, 0.438);
+        padding:17px;
+        border-radius: 50%;
+    }
+   
+    }
+    h3{
+        color: white;
+    }
+    Link{
+        text-decoration: none;
+    }
+    .header{
+        min-height: 60px;
+        background-color: rgba(0, 0, 255, 0.541);
+        margin:0 .01%;
+    }
+    .searchbar{
+        position: relative;
+        z-index: 1;
+        width: 80%;
+        margin: 4% 0 2% 0;
+        height: 30px;
+    }
+    select{
+        background-color: lightyellow;
+    }
+
+    .main{
+        margin:1.5% 0 ;
+        width: 100px;
+        padding: .5% 0;
+        
+    }
+    Link{
+        text-decoration: none;
+        color: cornsilk;
+    }
+    .filter{
+        text-align: center;
+        margin-top: 1.2%;
+        
+    }
+
+    .country{
+        @extend %message;
+        width:200px;    
+    }
+    .date{
+        @extend %message;
+        width:230px;
+        margin-left:5px
+    }
+
+    .register{
+        color: white;
+        margin: 3% 0;
+       
+    }
+}
